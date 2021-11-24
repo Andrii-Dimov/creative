@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_baner{
+    background-image: url("../images/01 1.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+}
+.main_baner .baner_2{
+    background-image: url("../images/01 2.jpg");
+}
+.main_baner .baner_{
+    background-image: url("../images/01 3.jpg");
+}
+.main_baner .baner_{
+    background-image: url("../images/01 4.jpg.jpg");
+}
+.container{
+    margin: auto;
+    max-width: 1110px;
+}
+header{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.main_baner h1{
+    /*padding-top: 344px;*/
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
+
+}
+.main_baner p{
+margin-bottom: ;
+}
