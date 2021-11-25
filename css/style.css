@@ -1,40 +1,106 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+   /* box-sizing: border-box;*/
 }
-.main_baner{
+.main_banner{
     background-image: url("../images/01 1.jpg");
     background-size: cover;
     background-position: center top;
     height: 100vh;
+    padding-top: 344px;
 }
-.main_baner .baner_2{
+.main_banner.baner_2{
     background-image: url("../images/01 2.jpg");
 }
-.main_baner .baner_{
+.main_banner.baner_3{
     background-image: url("../images/01 3.jpg");
 }
-.main_baner .baner_{
-    background-image: url("../images/01 4.jpg.jpg");
+.main_banner.baner_4{
+    background-image: url("../images/01 4.jpg");
 }
 .container{
     margin: auto;
     max-width: 1110px;
+
 }
 header{
     position: absolute;
     width: 100%;
     left: 0;
     top: 0;
+    padding-top: 31px;
 }
-.main_baner h1{
-    /*padding-top: 344px;*/
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.d-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header p{
+    margin-left: 22px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    padding-top: 1px;
+}
+header li{
+    margin-left: 23px;
+}
+header li span{
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 7px 30px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+header .soc{
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+}
+.main_banner h1{
+    font-family: sans-serif;
     font-size: 55px;
     line-height: 55px;
-    margin-bottom: 20px;
+    color: #181818;
+    margin-bottom: 30px;
+
 
 }
-.main_baner p{
-margin-bottom: ;
+.main_banner p{
+    font-family: sans-serif;
+    font-size: 34px;
+    line-height: 110%;
+    color: #181818;
+    margin-bottom: 65px;
+}
+.main_banner .btn{
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 23px 47px;
+    color: #181818;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: sans-serif;
 }
