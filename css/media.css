@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1024px) {
+header{
+    padding: 96px 47px;
+}
+    .main_banner{
+        padding: 96px 47px;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 768px) {
+    .owl-carousel div{
+        display: none;
+    }
+    .container{
+        max-width: 768px;
+    }
+    .d-flex li{
+
+        display: none;
+
+    }
+    header{
+        padding: 29px 39px;
+    }
+
+    .main_banner{
+        background-image: url("../images/Rectangle 52.jpg");
+        background-size: cover;
+        background-position: center top;
+        height: 100vh;
+        padding: 307px 228px 350px 47px;
+
+    }
+    .main_banner h1{
+        margin-bottom: 25px;
+        font:45px/45px '20 Kopeek Book';
+        color: #FFFFFF;
+    }
+    .main_banner p{
+        font-weight: normal;
+        font: 26px/29px '20 Kopeek';
+        color: #FFFFFF;
+    }
+    .main_banner .btn{
+        display: block;
+        margin-bottom: 42px;
+        padding: 19px 0 19px 47px;
+        font-style: normal;
+        font-weight: normal;
+        font:16px/22px '20 Kopeek';
+        color: #181818;
+        max-width: 212px;
+    }
+    .style{
+        margin-top: 100px;
+        padding-left: 39px;
+    }
+    .style h2{
+        font-size: 34px;
+        line-height: 37px;
+    }
+    .f-style{
+        flex-wrap: wrap;
+        /*margin-top: 15px;*/
+    }
+    .f-style img{
+        max-width: 450px;
+    }
+    .style-content{
+        max-width: 450px;
+        font-size: 16px;
+        line-height: 22px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .style-element{
+        padding-left: 39px;
+        margin-top: 119px;
+
+    }
+    .style-element h2{
+        max-width: 620px;
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .item_1{
+        width: 100%;
+}
+    .my-flex-container{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 420px) {
+
+}
+@media only screen and (max-width: 375px) {
+.item_1{
+    background-color: gold;
+}
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
