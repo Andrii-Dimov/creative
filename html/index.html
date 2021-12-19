@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="../css/owl.carousel.css">
     <link rel="stylesheet" href="../css/owl.theme.default.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -15,16 +17,50 @@
 
 </head>
 <body>
-<header>
-    <div class="owl-carousel">
-        <div> Your Content </div>
-        <div> Your Content </div>
-        <div> Your Content </div>
-        <div> Your Content </div>
-        <div> Your Content </div>
-        <div> Your Content </div>
-        <div> Your Content </div>
+
+
+
+<div id="dialog" title="Оставить заявку">
+    <form action="#" method="post" name="dialog">
+        <label for="your_name" >
+        <input id="your_name" type="text" name="your_name" class="your_name" placeholder="Ваше Имя">
+        </label>
+
+        <label for="your_phone" >
+        <input id="your_phone" type="tel" class="your_phone" name="your_phone" placeholder="+7 (999) 999-99-99">
+        </label>
+
+        <label class="label_2" for="CHECKBOX2">
+            <input class="i_agree_2" type="checkbox" name="I_AGREE" ID="CHECKBOX2">
+            Я принимаю условия передачи персональных данных
+        </label>
+        <button class="button_2" type="submit" name="button_2">Оставить заявку
+        </button>
+
+
+    </form>
+
+</div>
+
+
+
+<div class="position">
+    <div class="container">
+        <h1>Вам нужен фирменный<br> стиль или ребрендинг?</h1>
+        <p>Разработаем в срок от 10-ти дней</p>
+        <a href="#" class="btn">Портфолио</a>
+        <label class="opener" for="opener">
+        <button id="opener">Оставить заявку</button>
+        </label>
     </div>
+</div>
+<div class="owl-carousel">
+    <section class="main_banner"></section>
+    <section class="main_banner banner_2"></section>
+    <section class="main_banner banner_3"></section>
+    <section class="main_banner banner_4"></section>
+</div>
+<header>
     <div class="container">
         <a href="#" class="logo">
             <img src="../images/logo.svg" alt="logo">
@@ -49,15 +85,7 @@
 
 
 </header>
-<section class="main_banner">
-    <div class="container">
-        <h1>Вам нужен фирменный<br> стиль или ребрендинг?</h1>
-        <p>Разработаем в срок от 10-ти дней</p>
-        <a href="#" class="btn">Портфолио</a>
-        <a href="#" class="btn">Оставить заявку</a>
-    </div>
 
-</section>
 <section class="style">
     <div class="container">
         <h2>
@@ -95,16 +123,15 @@
                 <p>Фирменные<br> цвета всей коммуникации (онлайн и оффлайн)</p></div>
             <div class="element_item"><span>4</span>
                 <p>Шрифт</p></div>
-            <div class="element_item"><span>5</span>
-                <p>Носители фирменного стиля</p></div>
-
+            <div class="element_item"><span>5</span><p>
+                Носители <br> фирменного <br> стиля<br>
+                </p>
             </div>
-        <div class="last_p"><p>Этот набор варьируется в зависимости от нужд и потребностей компании: визитные карточки, фирменные бланки и прочая деловая документация, упаковка, сувенирная продукция, брендинг автотранспорта.
-        </p>
+
         </div>
 
 
-
+        </div>
 
 
     </div>
@@ -375,12 +402,13 @@
 </section>
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
-<script
-        src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
 <script src="../js/owl.carousel.js"></script>
 <script src="../js/scripts.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script src="https://kit.fontawesome.com/0148f7d94a.js" crossorigin="anonymous"></script>
 </body>
 </html>

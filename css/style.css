@@ -37,13 +37,13 @@
     height: 100vh;
     padding-top: 344px;
     }
-.main_banner.baner_2{
+.main_banner.banner_2{
     background-image: url("../images/01 2.jpg");
 }
-.main_banner.baner_3{
+.main_banner.banner_3{
     background-image: url("../images/01 3.jpg");
 }
-.main_banner.baner_4{
+.main_banner.banner_4{
     background-image: url("../images/01 4.jpg");
 }
 .container{
@@ -58,6 +58,7 @@ header{
     left: 0;
     top: 0;
     padding-top: 39px;
+    z-index: 2;
 }
 header .container{
     display: flex;
@@ -106,21 +107,28 @@ header .soc{
     text-align: center;
     line-height: 38px;
 }
-.main_banner h1{
+.position{
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    top: 344px;
+
+}
+.position h1{
     font-family: '20 Kopeek Book';
     font-size: 55px;
     line-height: 55px;
     color: #181818;
     margin-bottom: 30px;
 }
-.main_banner p{
+.position p{
     font-family: '20 Kopeek Book';
     font-size: 34px;
     line-height: 110%;
     color: #181818;
     margin-bottom: 65px;
 }
-.main_banner .btn{
+.position .btn{
     display: inline-block;
     background-color: #ffffff;
     border-radius: 40px;
@@ -132,6 +140,196 @@ header .soc{
     margin-right: 20px;
     font-family: '20 Kopeek';
 }
+.position button{
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 23px 47px;
+    color: #181818;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: '20 Kopeek';
+    border: none;
+}
+
+
+.ui-dialog {
+    max-width: 648px !important;
+    width: 100% !important;
+    }
+.ui-dialog .ui-dialog-content{
+    margin-left: 54px;
+}
+.ui-widget.ui-widget-content{
+    border: none;
+    border-radius: 0px;
+   }
+.ui-widget-header{
+    border: none;
+    background-color: #ffffff;
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 42px;
+    color: #181818;
+    border-radius: 0;
+    margin-bottom: 30px;
+    margin-left: 28px;
+    margin-top: 47px;
+   }
+.ui-dialog .ui-dialog-titlebar-close{
+    top: -90px;
+    right: -30px;
+    border-radius: 0;
+    border: none;
+    background-color: unset;
+}
+.ui-button .ui-icon{
+    width: 38px;
+    height: 38px;
+    background-image: none;
+    background-position: inherit;
+    text-indent: 0;
+}
+.ui-icon:before {
+    content: "\f410";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+.your_phone, .your_name{
+    display: inline-block;
+    border: 1px solid #181818;
+    border-radius: 10px;
+    min-width: 540px;
+    padding: 23px 29px;
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #868686;
+    margin-bottom: 10px;
+}
+.ui-widget .i_agree_2{
+    margin-top: 21px;
+    margin-bottom: 48px;
+    margin-right: 11px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    }
+.label_2{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #181818;
+
+}
+.button_2{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #2B59C3;
+    border-radius: 40px;
+    padding: 23px 47px;
+    margin-bottom: 59px;
+    border: none;
+}
+
+
+
+
+/*margin-bottom: 48px;*/
+/*
+.ui-dialog .ui-dialog-titlebar{
+    background: #FFFFFF;
+    padding: 47px 0 30px 54px;
+    font-weight: normal;
+    font: 38px/42px '20 Kopeek Book';
+    color: #181818;
+    border: none;
+    border-radius: 0;
+}
+.ui-widget .ui-widget{
+    position: absolute;
+    right: -35px;
+    top: -30px;
+}
+.ui-button .ui-icon {
+    background-image: none;
+}
+.ui-button {
+    border: none;
+    border-radius: 0;
+    background-color: unset;
+    text-decoration: none;}
+.ui-button .ui-icon:before
+{
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f00d";
+
+
+}*/
+
+
+
+
+
+/*
+.ui-button .ui-icon{
+    background-image: none;
+    background-position: inherit;
+    text-indent: 0;
+    position: absolute;
+    left: 70px;
+    top: -100px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    width: 45px;
+    height: 45px;
+
+
+}
+.ui-button .ui-icon:before {
+
+    content: "\f410";
+
+;
+
+
+}
+
+.ui-button{
+    border: none;
+    border-radius: 0;
+    background-color: #ffffff;
+
+
+
+
+}
+
+.your_phone{
+    display: block;
+}
+*/
+
+
+
+
+
+
 .style{
     width: 100%;
     margin-top: 70px;
@@ -203,31 +401,8 @@ header .soc{
     max-width: 140px;
 
 }
-/*.element_item:last-of-type p{
-    max-width: 260px;
-    max-height: 133px;
-}*/
-.last_p{
-    max-width: 260px;
-    max-height: 133px;
-    position: relative;
-    left: 800px;
-    top: -30px;
-    font-style: normal;
-    font-weight: normal;
-    font: 15px/19px '20 Kopeek';
-    color: #181818;
-
-}
-
-
-
-
-
-
 .price-style{
-    /*width: 100%;*/
-    padding-top: 80px;
+       padding-top: 80px;
 }
 .price-style h2{
 
@@ -658,11 +833,8 @@ color: #181818;
 .my-flex-container.border .item_2 p{
        margin-left: 0px;
 }
-
 .my-flex-container h3{
-
     margin-left: 15px;
-
 }
 
 
@@ -673,8 +845,7 @@ color: #181818;
     height: 100vh;
     margin-top: 175px;
     padding-top: 282px;
-
-
+    margin-bottom: 150px;
 }
 .advantages h3{
     font-weight: normal;
@@ -686,7 +857,6 @@ color: #181818;
     display: flex;
     }
 .advantage{
-
     display: flex;
     padding-right: 28px;
     }
@@ -706,7 +876,33 @@ color: #181818;
     color: #FFFFFF;
     margin-top: 25px;
 }
+.owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    z-index: 4;
+    top: 40%;
+    left: 2%;
+}
+.owl-carousel .owl-nav .owl-prev:before{
+    content: "\f053";
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+ }
+.owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    z-index: 4;
+    top: 40%;
+    right: 2%;
+}
+.owl-carousel .owl-nav .owl-next:before{
+    content: "\f054";
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
 
+}
 
 
 
